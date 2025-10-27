@@ -1,10 +1,10 @@
-function rps(user,computer){
-  if(user === computer) return "draw";
-
-  if(user === "rock" && computer === "scissor") return "user";
-  if(user === "scissor" && computer === "rock") return "computer";
-  if(user === "paper" && computer === "rock") return "user"
-
-  return "computer";
+function fnc(){
+  console.log("this is called function statement.")
 }
-console.log(rps("rock","scissor"))
+let fnc = function(){
+  console.log("this is called function expression.")
+}
+
+let func = ()=>{
+  console.log("this is called fat arrow function.")
+}
