@@ -1,8 +1,17 @@
-var a = 12;
-var a = 13;
- // no error in case of var 
+/**
+ * global scope 
+ * function scope
+ * block scope
+ */
 
- let a = 12;
-let a = 13;
- // error in let
+// reassignment , redeclaration 
 
+// var a = 23;
+// a = 23;
+
+// let b = 44;
+// b = 55;    
+
+// temporal dead zone
+console.log(a);
+let a = 23;
