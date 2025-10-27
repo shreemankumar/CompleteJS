@@ -1,17 +1,9 @@
-/**
- * global scope 
- * function scope
- * block scope
- */
+// Hoisting impact per type
+//var a = undefined
 
-// reassignment , redeclaration 
 
-// var a = 23;
-// a = 23;
-
-// let b = 44;
-// b = 55;    
-
-// temporal dead zone
-console.log(a);
-let a = 23;
+console.log(a);  //  undefined
+var a = 12;
+// var a = undefined (this goes to the top)
+// a = 12
+ 
