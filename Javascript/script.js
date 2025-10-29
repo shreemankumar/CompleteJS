@@ -1,6 +1,8 @@
+// type 1
+let marks = [78,89,90,98,71];
+console.log(marks[2])// 90
+console.log(marks[4])// 71
+console.log(marks[5])// undefined
 
-// rest and spread operator
-function abcd(...val){
-  console.log(val)
-}
-abcd(1,2,3,4,5,6,7,8,9,10);
+//type 2
+let mark = new Array();
