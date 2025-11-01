@@ -1,8 +1,6 @@
-let element = document.createElement("i");
-element.innerText = "This is student qoaut";
-document.body.appendChild(element);
-//document.body.removeChild(element);
-
-document.querySelectorAll("h1").forEach(function (h1) {
-  document.body.removeChild(h1);
-});
+document.body.style.backgroundColor = "black";
+let h1 = document.querySelector("h1");
+h1.classList.add("design");
+h1.classList.toggle("design"); // if yes = no , if no = yes
+//h1.classList.remove("design");
+console.dir(h1);
