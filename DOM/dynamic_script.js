@@ -1,10 +1,8 @@
-// let h1 = document.createElement("h1");
+let element = document.createElement("i");
+element.innerText = "This is student qoaut";
+document.body.appendChild(element);
+//document.body.removeChild(element);
 
-// let h1context = document.createTextNode("creating h1");
-
-// h1.appendChild(h1context);
-// document.body.appendChild(h1);
-
-let h1 = document.createElement("h1");
-h1.textContent = "this is h1's content";
-document.querySelector("body").prepend(h1);
+document.querySelectorAll("h1").forEach(function (h1) {
+  document.body.removeChild(h1);
+});
