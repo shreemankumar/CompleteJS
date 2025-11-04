@@ -1,7 +1,6 @@
-let input = document.querySelector("input");
-let datainput = function (val) {
-  if (val.data !== null) {
-    console.log(val.data);
-  }
-};
-input.addEventListener("input", datainput);
+let select = document.querySelector("select");
+let selected = document.querySelector("#devices");
+
+select.addEventListener("change", function (val) {
+  selected.textContent = `${val.target.value} device selected`;
+});
