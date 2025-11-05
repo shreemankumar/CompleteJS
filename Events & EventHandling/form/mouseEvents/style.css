@@ -11,6 +11,8 @@ body{
   width: 100%;
 }
 #abcd{
+  transition: cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  position: absolute;
   height: 400px;
   width: 400px;
   background-color: red;
