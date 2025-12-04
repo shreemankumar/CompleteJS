@@ -1,0 +1,12 @@
+#text {
+  padding: 20px 100px;
+}
+body{
+  background-color: #222;
+}
+small{
+  color: red;
+}
+#hide{
+  display: none;
+}
