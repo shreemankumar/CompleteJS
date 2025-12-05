@@ -3,20 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Form Example</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+  <div class="container">
     <form id="form">
-      <input type="text" required minlength="3" maxlength="12" id="name" placeholder="name"><br><br>
-      <div id="hide"><small >please enter characters which is greater than 2</small><br></div>
-      <input type="email" id="email" placeholder="email"><br><br>
-      <input type="password" id="password" placeholder="password"><br><br>
-      <input type="text" id="text" placeholder=""><br><br>
-      <button type="submit" id="submit">submit</button>
+      <h2>Registration Form</h2>
+
+      <input type="text" id="name" placeholder="Name" required>
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <input type="text" id="text" placeholder="Message">
+
+      <button type="submit" id="submit">Submit</button>
     </form>
+  </div>
 
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
