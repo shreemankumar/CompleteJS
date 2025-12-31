@@ -8,3 +8,7 @@ sessionStorage.removeItem("age");
 
 sessionStorage.setItem("place", "hydearbad");
 sessionStorage.setItem("place", "berhampur");
+
+// cookies : can handel small types of data (4 kb)
+// data goes automatically to server while reloading.
+document.cookie = "email = shreeman@gmail.com";
